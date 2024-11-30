@@ -120,7 +120,7 @@ class MainActivity : AppCompatActivity() {
                 |
                 |Надсилаю вам селфі для завдання.
                 |
-                |Посилання на репозиторій: """.trimMargin())
+                |Посилання на репозиторій: https://github.com/MariiaMolchanova/MolchanovaApp1.git""".trimMargin())
             putExtra(Intent.EXTRA_STREAM, photoUri)
             addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
         }
